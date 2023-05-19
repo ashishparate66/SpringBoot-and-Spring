@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+
+<bean id="p1" class="com.masai.Person">
+	<constructor-arg name="id" value="1"/>
+	<constructor-arg name="name" value="Pratik"/>
+	<constructor-arg name="age" value="25"/>
+	<constructor-arg name="email" value="pn@gmail.com"/>
+	<constructor-arg name="mobile" value="7894612234"/>
+</bean>
+
+<bean id="p2" class="com.masai.Person">
+	<constructor-arg name="id" value="2"/>
+	<constructor-arg name="name" value="Dipesh"/>
+	<constructor-arg name="age" value="25"/>
+	<constructor-arg name="email" value="dn@gmail.com"/>
+	<constructor-arg name="mobile" value="8894612234"/>
+</bean>
+<bean id="p3" class="com.masai.Person">
+	<constructor-arg name="id" value="3"/>
+	<constructor-arg name="name" value="Ashish"/>
+	<constructor-arg name="age" value="27"/>
+	<constructor-arg name="email" value="ap@gmail.com"/>
+	<constructor-arg name="mobile" value="9994612234"/>
+</bean>
+
+   <bean id="s1" class="com.masai.Skill">
+	<constructor-arg name="id" value="1"/>
+	<constructor-arg name="name" value="java"/>
+	<constructor-arg name="yearsOfExperience" value="2"/>
+	
+</bean>
+
+<bean id="s2" class="com.masai.Skill">
+	<constructor-arg name="id" value="2"/>
+	<constructor-arg name="name" value="Js"/>
+	<constructor-arg name="yearsOfExperience" value="1"/>	
+</bean>
+
+<bean id="ps" class="com.masai.PersonService">
+	<property name="skillMap">
+		<map>
+			<entry key-ref="p1" value-ref="s1"/>
+			<entry key-ref="p2" value-ref="s2"/>
+			<entry key-ref="p3" value-ref="s2"/>
+		</map>
+	</property>
+	
+	<property name="personList">
+		<list>
+			<ref bean="p1"/>
+			<ref bean="p2"/>
+			<ref bean="p3"/>
+		</list>
+	</property>
+	
+</bean>
+
+</beans>

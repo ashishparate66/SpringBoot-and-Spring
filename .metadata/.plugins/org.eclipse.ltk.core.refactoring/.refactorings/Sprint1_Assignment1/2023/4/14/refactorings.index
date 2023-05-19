@@ -1,0 +1,27 @@
+1680693526151	Delete element
+1680693701170	Rename package 'exception'
+1680716244401	Move package
+1680716261569	Copy package
+1680716267196	Copy package
+1680716273299	Copy package
+1680716279560	Copy package
+1680716287382	Copy package
+1680716292528	Copy file
+1680867050203	Delete element
+1680867334506	Rename package 'com.masai.dao'
+1680867354628	Rename package 'com.masai.dto'
+1680867380851	Rename package 'com.masai.UI'
+1680867397405	Rename package 'com.masai.usecases'
+1680867579874	Delete element
+1680867730289	Rename package 'com.Problem.dto'
+1680867851879	Copy compilation unit
+1680868190644	Delete element
+1680868926993	Copy compilation unit
+1680870212605	Rename type 'EmployeeDao'
+1680871666790	Rename compilation unit 'DBUtils.java'
+1680875858898	Copy compilation unit
+1680875888171	Rename type 'EmployeeException'
+1680875944788	Copy compilation unit
+1680876036227	Delete element
+1680876038446	Copy compilation unit
+1680876783467	Rename type 'UiMain'

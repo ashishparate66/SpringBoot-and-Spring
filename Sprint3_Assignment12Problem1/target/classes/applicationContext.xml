@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+<bean id="E" class="com.Problem1.Employee"/>
+
+<bean id="e1" class="com.Problem1.Employee">
+<constructor-arg name="empId" value="1"/>
+<constructor-arg name="empName" value="Ashish"/>
+<constructor-arg name="address" value="Nagpur"/>
+<constructor-arg name="salary" value="8000"/>
+</bean>
+
+<bean id="e2" class="com.Problem1.Employee">
+<constructor-arg name="empId" value="2"/>
+<constructor-arg name="empName" value="Pratik"/>
+<constructor-arg name="address" value="Mumbai"/>
+<constructor-arg name="salary" value="15000"/>
+</bean>
+
+<bean id="e3" class="com.Problem1.Employee">
+<constructor-arg name="empId" value="3"/>
+<constructor-arg name="empName" value="Dipesh"/>
+<constructor-arg name="address" value="Goa"/>
+<constructor-arg name="salary" value="25000"/>
+</bean>
+
+<bean id="d1" class="com.Problem1.Department">
+<constructor-arg name="deptId" value="1" />
+<constructor-arg name="deptName" value="Sales" />
+<constructor-arg name="location" value="Bangloe" />
+</bean>
+
+<bean id="d2" class="com.Problem1.Department">
+<constructor-arg name="deptId" value="2" />
+<constructor-arg name="deptName" value="Accounts" />
+<constructor-arg name="location" value="chennai" />
+</bean>
+
+<bean id="d3" class="com.Problem1.Department">
+<constructor-arg name="deptId" value="3" />
+<constructor-arg name="deptName" value="Marketing" />
+<constructor-arg name="location" value="Delhi" />
+</bean>
+
+<bean id="D" class="com.Problem1.Demo" scope="prototype" init-method="myInit" destroy-method="cleanUp" lazy-init="true">
+
+<property name="theMap">
+	<map>
+		
+		<entry key-ref="d1" value-ref="e1"/>
+		<entry key-ref="d2" value-ref="e2"/>
+		<entry key-ref="d3" value-ref="e3"/>
+	</map>	
+</property>
+
+</bean>
+
+
+
+</beans>

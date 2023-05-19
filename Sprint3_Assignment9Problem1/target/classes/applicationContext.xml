@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+<bean id="dt" class="java.sql.Date" factory-method="valueOf">
+	<constructor-arg value="2012-12-04"/>
+</bean>
+<!--<bean id="dt1"  class="java.text.SimpleDateFormat" >
+	<constructor-arg value="dd-MM-yyyy hh:mm:ss"/>
+</bean>-->
+
+
+<bean id="t" class="com.masai.Problem1.Tourist">
+	<constructor-arg value="Pratik"/>
+	<constructor-arg value="25"/>
+	<constructor-arg value="453456789412"/>
+</bean>           
+
+<bean id="h" class="com.masai.Problem1.HolidayPackage">
+	
+	<property name="package_name" value="way to hawai"/>
+	<property name="tourist" ref="t"/>
+	<property name="package_expiry" ref="dt"/>
+	<!--<property name="package_expiry" >
+		<bean factory-bean="dt1" factory-method="parse" >
+			<constructor-arg value="01-04-2023 14:15:25"/>
+		</bean>
+	</property>-->
+	<property name="package_price" value="12000"/>
+</bean>
+
+</beans>

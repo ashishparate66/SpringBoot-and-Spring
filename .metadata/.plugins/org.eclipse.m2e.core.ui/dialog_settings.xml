@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Ashish parate\OneDrive\Desktop\Unit 6 JAVA\Sprint4_Assignment13Problem1"/>
+			<item value="C:\Users\Ashish parate\OneDrive\Desktop\Unit 6 JAVA\Sprint3_Assignment10Problem1"/>
+			<item value="C:\Users\Ashish parate\OneDrive\Desktop\Unit 6 JAVA\Sprint3_Assignment9Problem1"/>
+			<item value="C:\Users\Ashish parate\OneDrive\Desktop\Unit 6 JAVA\Sprint2_Assignment8"/>
+			<item value="C:\Users\Ashish parate\OneDrive\Desktop\Unit 6 JAVA\Sprint1_Assignment2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.masai"/>
+		</list>
+		<list key="name">
+			<item value="Sprint2_Assignment6"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spriint4_Assignment13Problem2"/>
+			<item value="Sprint_Assignment13Problem2"/>
+			<item value="Sprint4_Assignment13Problem1"/>
+			<item value="Sprint3_Assignment12Problem1"/>
+			<item value="Sprint3_Practice_Evaluation"/>
+			<item value="Sprint3_Assignment10Problem2"/>
+			<item value="Sprint3_Assignment10Problem1"/>
+			<item value="Sprint3_Assignment9Problem3"/>
+			<item value="Sprint3_Assignment9Problem2"/>
+			<item value="Sprint3_Assignment9"/>
+			<item value="SpringAppPractice"/>
+			<item value="Sprint2_Assignment8"/>
+			<item value="Sprint2_Assignment5Part2"/>
+			<item value="Sprint2_Assignment7"/>
+			<item value="Sprint2_Assignment6"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
